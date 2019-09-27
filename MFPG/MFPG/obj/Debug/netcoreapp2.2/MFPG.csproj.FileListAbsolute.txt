@@ -1,0 +1,11 @@
+C:\Projects\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.deps.json
+C:\Projects\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.runtimeconfig.json
+C:\Projects\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.runtimeconfig.dev.json
+C:\Projects\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.dll
+C:\Projects\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.pdb
+C:\Projects\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.csprojAssemblyReference.cache
+C:\Projects\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.csproj.CoreCompileInputs.cache
+C:\Projects\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfoInputs.cache
+C:\Projects\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfo.cs
+C:\Projects\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.dll
+C:\Projects\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.pdb
