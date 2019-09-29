@@ -6,8 +6,11 @@ namespace MFPG.Models
 {
     class GreatFlambini
     {
-        public string[] answers = new string[] { "Yes", "No", "Maybe", "Ask again Later", "Does not seem likely", "You can count on it!" };
-        public string[] fortunes = new string[]
+        // array list of possible answers to yes/no questions
+        private string[] answers = new string[] { "Yes", "No", "Maybe", "Ask again Later", "Does not seem likely", "You can count on it!" };
+
+        // array list of possible fortunes to tell the user
+        private string[] fortunes = new string[]
         {
             "A beautiful, smart, and loving person will be coming into your life.",
             "A dubious friend may be an enemy in camouflage.",
@@ -25,7 +28,8 @@ namespace MFPG.Models
             "A lifetime of happiness lies ahead of you."
         };
 
-        public void GreatFlambiniIntro()
+        // introduces the great flambini and asks user which fortune path they want to take
+        private string greatFlambiniIntro()
         {
             Console.WriteLine("*************************************************************************************************");
             Console.WriteLine("*************************************************************************************************");
@@ -35,28 +39,72 @@ namespace MFPG.Models
             Console.WriteLine();
             Console.WriteLine();
             Console.Write("Well, since you have my attention... Would you like to consult the (M)agic Eight Ball, or receive your (F)ortune?");
+
+            return Console.ReadLine().ToString();
         }
 
-        public void MagicEightBall()
+        // magic 8 ball fortune path
+        private void magicEightBall()
         {
             Random randomNum = new Random();
 
-            Console.WriteLine("Ask me any yes or no question and I will tell your future!: ");
+            Console.Clear();
             Console.Write("Ask me any yes or no question and I will tell your future!: "); Console.Read();
             Console.WriteLine();
             Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answers[randomNum.Next(0, 5)]}");
             Console.ReadLine();
         }
 
-        public void FortuneTeller()
+        // fortune teller fortune path
+        private void fortuneTeller()
         {
             Random randomNum = new Random();
 
+            Console.Clear();
             Console.WriteLine("Type enter for your fortune!: ");
             Console.ReadKey();
             Console.WriteLine();
             Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, 13)]}");
             Console.ReadLine();
+        }
+
+        public void RunFlambini()
+        {
+            bool continueFlambini = true;
+
+            string fortunePath = greatFlambiniIntro();
+
+            while (continueFlambini)
+            {
+                if (fortunePath.ToLower() == "m")
+                {
+                    magicEightBall();
+                }
+                else if (fortunePath.ToLower() == "f")
+                {
+                    fortuneTeller();
+                }
+                else
+                {
+                    Console.WriteLine("Improper entry.");
+                }
+
+                Console.WriteLine();
+                Console.Write("Would you like another fortune? (y or n): ");
+                string userContineChoice = Console.ReadLine();
+
+                if (userContineChoice.ToLower() == "y")
+                {
+                    continueFlambini = true;
+                }
+                else
+                {
+                    continueFlambini = false;
+                }
+            }
+            Console.Clear();
+            Console.WriteLine("Okay goodbye! Press enter to exit the console. ");
+            Console.ReadKey();
         }
     }
 }
