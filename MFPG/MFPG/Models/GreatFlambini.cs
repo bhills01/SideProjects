@@ -7,9 +7,22 @@ namespace MFPG.Models
     class GreatFlambini
     {
         // array list of possible answers to yes/no questions
-        private string[] answers = new string[] { "Yes", "No", "Maybe", "Ask again Later", "Does not seem likely", "You can count on it!" };
+        // removed string array cap, to add additional Flambini answers simply add a new string - 9/30
+        private string[] answers = new string[] 
+        {
+            "Yes",
+            "No",
+            "Maybe",
+            "Ask again Later",
+            "Ask your mom, no wait, I will.....she says no!",
+            "Does not seem likely",
+            "You can count on it!",
+
+            //Add new Flambini answers above this line
+        };
 
         // array list of possible fortunes to tell the user
+        // removed string array cap, to add additional Flambini fotunes simply add a new string - 9/30
         private string[] fortunes = new string[]
         {
             "A beautiful, smart, and loving person will be coming into your life.",
@@ -51,7 +64,7 @@ namespace MFPG.Models
             Console.Clear();
             Console.Write("Ask me any yes or no question and I will tell your future!: "); Console.Read();
             Console.WriteLine();
-            Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answers[randomNum.Next(0, 5)]}");
+            Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answers[randomNum.Next(0, answers.Length)]}");
             Console.ReadLine();
         }
 
@@ -64,7 +77,7 @@ namespace MFPG.Models
             Console.WriteLine("Type enter for your fortune!: ");
             Console.ReadKey();
             Console.WriteLine();
-            Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, 13)]}");
+            Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, fortunes.Length)]}");
             Console.ReadLine();
         }
 

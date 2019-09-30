@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BBest\\.nuget\\packages\\": {},
+    "C:\\Users\\BHills\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BBest\\git\\hills-side-projects\\MFPG\\MFPG\\MFPG.csproj",
+      "projectUniqueName": "C:\\Projects\\hills-side-projects\\MFPG\\MFPG\\MFPG.csproj",
       "projectName": "MFPG",
-      "projectPath": "C:\\Users\\BBest\\git\\hills-side-projects\\MFPG\\MFPG\\MFPG.csproj",
-      "packagesPath": "C:\\Users\\BBest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BBest\\git\\hills-side-projects\\MFPG\\MFPG\\obj\\",
+      "projectPath": "C:\\Projects\\hills-side-projects\\MFPG\\MFPG\\MFPG.csproj",
+      "packagesPath": "C:\\Users\\BHills\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\hills-side-projects\\MFPG\\MFPG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\BBest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BHills\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
