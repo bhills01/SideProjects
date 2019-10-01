@@ -41,7 +41,11 @@ namespace MFPG.Models
             Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answersSFW[randomNum.Next(0, answersSFW.Length)]}");
             Console.ReadLine();
             Console.WriteLine("\n\nPress enter to continue for next task");
-            Console.ReadKey();
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("************************************************************************************************************************");
+            Console.WriteLine("************************************************************************************************************************");
+            Console.WriteLine("************************************************************************************************************************");
         }
     }
 }

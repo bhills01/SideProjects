@@ -10,8 +10,9 @@ namespace MFPG.Models
         {
             "Ask your sister...oh wait, she said no",
             "Ask your mother...oh wait, she said no",
-            "Ask your sister...oh wait, she said yes...to me",
-            "Ask your mother...oh wait, she said yes...to me",
+            "(Uncontrollable sobbing) Ask again later. I can’t…I just can’t deal with this right now.",
+
+
 
             //Add new Flambini answers above this line
         };
@@ -25,7 +26,11 @@ namespace MFPG.Models
             Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answersNSFW[randomNum.Next(0, answersNSFW.Length)]}");
             Console.ReadLine();
             Console.WriteLine("\n\nPress enter to continue for next task");
-            Console.ReadKey();
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("************************************************************************************************************************");
+            Console.WriteLine("************************************************************************************************************************");
+            Console.WriteLine("************************************************************************************************************************");
         }
     }
 }
