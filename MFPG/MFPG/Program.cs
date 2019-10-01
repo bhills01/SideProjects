@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using MFPG.Models;
 
 namespace MFPG
@@ -55,40 +56,53 @@ namespace MFPG
 
             //greatFlambini.RunFlambini();
 
-        // Possible code to make a menu for a user interface (working with classes and stuff like that)
-        //    Console.Write(@"
-        //Welcome to the Great and Powerful Flambini
-        //        1) Fortune Teller
-        //        2) Magic 8-Ball (SFW)
-        //        3) Magic 8-Ball (NSFW)
-        //        Q) Quit
+            //Text typing out on top of the console window
+            //string Progresbar = "The Great Flambini All Powerful and Majestic Mystic of the Futuuuuurrrreeeee!!!!";
+            //var title = "";
+            //while (true)
+            //{
+            //    for (int i = 0; i < Progresbar.Length; i++)
+            //    {
+            //        title += Progresbar[i];
+            //        Console.Title = title;
+            //        Thread.Sleep(100);
+            //    }
+            //    title = "";
+            //}
+            // Possible code to make a menu for a user interface (working with classes and stuff like that)
+            //    Console.Write(@"
+            //Welcome to the Great and Powerful Flambini
+            //        1) Fortune Teller
+            //        2) Magic 8-Ball (SFW)
+            //        3) Magic 8-Ball (NSFW)
+            //        Q) Quit
 
-        //Please choose an option: ");
-        //    String input = Console.ReadLine().ToLower();
+            //Please choose an option: ");
+            //    String input = Console.ReadLine().ToLower();
 
-        //    if (input.Length == 0)
-        //    {
-        //        Console.Clear();
-                
-        //    }
-        //    input = input.Substring(0, 1);
+            //    if (input.Length == 0)
+            //    {
+            //        Console.Clear();
 
-        //    if (input == "q")
-        //    {
-                
-        //    }
-        //    else if (input == "1")
-        //    {
+            //    }
+            //    input = input.Substring(0, 1);
 
-        //    }
-        //    else if (input == "2")
-        //    {
+            //    if (input == "q")
+            //    {
 
-        //    }
-        //    else if (input == "3")
-        //    {
+            //    }
+            //    else if (input == "1")
+            //    {
 
-        //    }
+            //    }
+            //    else if (input == "2")
+            //    {
+
+            //    }
+            //    else if (input == "3")
+            //    {
+
+            //    }
         }
     }
 }
