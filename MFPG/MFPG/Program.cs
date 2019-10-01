@@ -70,39 +70,53 @@ namespace MFPG
             //    title = "";
             //}
             // Possible code to make a menu for a user interface (working with classes and stuff like that)
-            //    Console.Write(@"
-            //Welcome to the Great and Powerful Flambini
-            //        1) Fortune Teller
-            //        2) Magic 8-Ball (SFW)
-            //        3) Magic 8-Ball (NSFW)
-            //        Q) Quit
+            Console.WriteLine("************************************************************************************************************************");
+            Console.WriteLine("************************************************************************************************************************");
+            Console.WriteLine("************************************************************************************************************************");
+            Console.WriteLine("\tWho dare disturb the Great Flambini All Powerful and Majestic Mystic of the Futuuuuurrrreeeee!!!!");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            while (true)
+            {
+                Console.Write("\t\t\t\t1) Fortune Teller\n\t\t\t\t2) Magic 8-Ball (SFW)\n\t\t\t\t3) Magic 8-Ball (NSFW)\n\t\t\t\tQ) Quit\n\n\n\t\t\t\tPlease choose an option: ");
+                String input = Console.ReadLine().ToLower();
 
-            //Please choose an option: ");
-            //    String input = Console.ReadLine().ToLower();
+                if (input.Length == 0)
+                {
+                    Console.Clear();
+                    continue;
 
-            //    if (input.Length == 0)
-            //    {
-            //        Console.Clear();
+                }
+                input = input.Substring(0, 1);
 
-            //    }
-            //    input = input.Substring(0, 1);
+                if (input == "q")
+                {
+                    break;
+                }
+                else if (input == "1")
+                {
+                    FortuneTeller fortuneTeller = new FortuneTeller();
 
-            //    if (input == "q")
-            //    {
+                    fortuneTeller.fortuneTeller();
+                }
+                else if (input == "2")
+                {
+                    MagicEightBall_SFW_ magicEightBallSFW = new MagicEightBall_SFW_();
 
-            //    }
-            //    else if (input == "1")
-            //    {
+                    magicEightBallSFW.magicEightBallSFW();
+                }
+                else if (input == "3")
+                {
+                    MagicEightBall_NSFW_ magicEightBallNSFW = new MagicEightBall_NSFW_();
 
-            //    }
-            //    else if (input == "2")
-            //    {
+                    magicEightBallNSFW.magicEightBallNSFW();
 
-            //    }
-            //    else if (input == "3")
-            //    {
+                }
 
-            //    }
+            }
         }
     }
 }
+
+
