@@ -20,3 +20,14 @@ C:\Users\BBest\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.As
 C:\Users\BBest\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfo.cs
 C:\Users\BBest\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.dll
 C:\Users\BBest\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.pdb
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.deps.json
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.runtimeconfig.json
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.runtimeconfig.dev.json
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.dll
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\bin\Debug\netcoreapp2.2\MFPG.pdb
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.csprojAssemblyReference.cache
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.csproj.CoreCompileInputs.cache
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfoInputs.cache
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfo.cs
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.dll
+C:\Users\GWeber\git\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.pdb

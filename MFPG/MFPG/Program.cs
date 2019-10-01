@@ -54,6 +54,41 @@ namespace MFPG
             //GreatFlambini greatFlambini = new GreatFlambini();
 
             //greatFlambini.RunFlambini();
+
+        // Possible code to make a menu for a user interface (working with classes and stuff like that)
+        //    Console.Write(@"
+        //Welcome to the Great and Powerful Flambini
+        //        1) Fortune Teller
+        //        2) Magic 8-Ball (SFW)
+        //        3) Magic 8-Ball (NSFW)
+        //        Q) Quit
+
+        //Please choose an option: ");
+        //    String input = Console.ReadLine().ToLower();
+
+        //    if (input.Length == 0)
+        //    {
+        //        Console.Clear();
+                
+        //    }
+        //    input = input.Substring(0, 1);
+
+        //    if (input == "q")
+        //    {
+                
+        //    }
+        //    else if (input == "1")
+        //    {
+
+        //    }
+        //    else if (input == "2")
+        //    {
+
+        //    }
+        //    else if (input == "3")
+        //    {
+
+        //    }
         }
     }
 }
