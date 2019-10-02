@@ -69,7 +69,7 @@ namespace MFPG
             //    }
             //    title = "";
             //}
-            // Possible code to make a menu for a user interface (working with classes and stuff like that)
+            // Code to make a menu for a user interface (working with classes and stuff like that)
             Console.WriteLine("************************************************************************************************************************");
             Console.WriteLine("************************************************************************************************************************");
             Console.WriteLine("************************************************************************************************************************");

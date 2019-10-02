@@ -54,8 +54,7 @@ namespace MFPG.Models
             Console.WriteLine($"Here is your riddle to solve: {riddles[number]}");
             Console.ReadLine();
             Console.WriteLine($"The answer to your riddle is: {riddleSet[riddles[number]]}");
-            Console.ReadLine();
-            Console.WriteLine("Press enter for next task");
+            Console.WriteLine("\nPress enter for next task");
             Console.ReadLine();
             Console.Clear();
             Console.WriteLine("************************************************************************************************************************");

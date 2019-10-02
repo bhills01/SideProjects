@@ -36,11 +36,9 @@ namespace MFPG.Models
 
             Console.Clear();
             Console.Write("Ask me any yes or no question and I will tell your future!: ");
-            Console.Read();
-            Console.WriteLine();
-            Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answersSFW[randomNum.Next(0, answersSFW.Length)]}");
             Console.ReadLine();
-            Console.WriteLine("\n\nPress enter to continue for next task");
+            Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your answer: {answersSFW[randomNum.Next(0, answersSFW.Length)]}");
+            Console.WriteLine("\nPress enter to continue for next task");
             Console.ReadLine();
             Console.Clear();
             Console.WriteLine("************************************************************************************************************************");

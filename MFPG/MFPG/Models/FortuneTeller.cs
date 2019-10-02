@@ -28,10 +28,10 @@ namespace MFPG.Models
             Random randomNum = new Random();
 
             Console.Clear();
-            Console.WriteLine("Press enter for your fortune! ");
+            Console.Write("Press enter for your fortune! ");
             Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, fortunes.Length)]}");
+            Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, fortunes.Length)]}");
+            Console.WriteLine("\nPress enter to continue for next task");
             Console.ReadLine();
             Console.Clear();
             Console.WriteLine("************************************************************************************************************************");
