@@ -29,17 +29,24 @@ namespace MFPG.Models
         public void magicEightBallNSFW()
         {
             Random randomNum = new Random();
+            bool anotherQuestion = true;
+            string input = "";
 
-            Console.Clear();
-            Console.Write("Ask me any yes or no question and I will tell your future!: ");
-            Console.ReadLine();
-            Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your answer: {answersNSFW[randomNum.Next(0, answersNSFW.Length)]}");
-            Console.WriteLine("\nPress enter to continue for next task");
-            Console.ReadLine();
-            Console.Clear();
-            Console.WriteLine("************************************************************************************************************************");
-            Console.WriteLine("************************************************************************************************************************");
-            Console.WriteLine("************************************************************************************************************************");
+            while (anotherQuestion)
+            {
+                Console.Clear();
+                Console.Write("Ask me any yes or no question and I will tell your future!: ");
+                Console.ReadLine();
+                Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your answer: {answersNSFW[randomNum.Next(0, answersNSFW.Length)]}");
+                Console.WriteLine("\nWould you like to ask another question? (Y)es or (N)o:");
+                input = Console.ReadLine().ToLower();
+                Console.Clear();
+
+                Console.Clear();
+                Console.WriteLine("************************************************************************************************************************");
+                Console.WriteLine("************************************************************************************************************************");
+                Console.WriteLine("************************************************************************************************************************");
+            }
         }
     }
 }
