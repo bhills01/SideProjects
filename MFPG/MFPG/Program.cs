@@ -70,10 +70,23 @@ namespace MFPG
             //    title = "";
             //}
             // Code to make a menu for a user interface (working with classes and stuff like that)
-            Console.WriteLine("************************************************************************************************************************");
-            Console.WriteLine("************************************************************************************************************************");
-            Console.WriteLine("************************************************************************************************************************");
-            Console.WriteLine("\tWho dare disturb the Great Flambini All Powerful and Majestic Mystic of the Futuuuuurrrreeeee!!!!");
+            bool visible = true;
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            for (int i = 0; i < 10; i++)
+            {
+                //Press Ctrl + C to Quit
+                string alert = "************************************************************************************************************************" +
+                    "\n************************************************************************************************************************" +
+                    "\n************************************************************************************************************************" +
+                    "\n\tWho dare disturb the Great Flambini All Powerful and Majestic Mystic of the Futuuuuurrrreeeee!!!!";
+                Console.ForegroundColor = visible ? ConsoleColor.White: ConsoleColor.Black;
+                visible = !visible;
+                Console.Clear();
+                Console.WriteLine(alert);
+                Console.ForegroundColor = ConsoleColor.White;
+                Thread.Sleep(300);
+            }
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
