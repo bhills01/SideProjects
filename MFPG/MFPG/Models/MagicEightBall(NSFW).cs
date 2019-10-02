@@ -8,9 +8,19 @@ namespace MFPG.Models
     {
         private string[] answersNSFW = new string[]
         {
-            "Ask your sister...oh wait, she said no",
-            "Ask your mother...oh wait, she said no",
+            "Ask your sister...No wait, I will. She said no.",
+            "Ask your mother...Hold on, I will. She said as soon as she's done servicing me she'll let you know.",
             "(Uncontrollable sobbing) Ask again later. I can’t…I just can’t deal with this right now.",
+            "FUCK NO!!!",
+            "Sure, why not?",
+            "Yep",
+            "I don't see why not",
+            "Nah son!",
+            "You kiss your mother with that mouth, Fuck off",
+            "Nope",
+            "Not today....maybe some other time",
+            "As surely as your girlfriend's womb is a barren wasteland never to spawn you an heir...oh you didn't know? Sorry.",
+            "Watch the entire series of Spartacus on Netflix then if you don't have your answer...ask me again.",
 
 
 
