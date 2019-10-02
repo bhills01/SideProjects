@@ -33,13 +33,28 @@ namespace MFPG.Models
         public void magicEightBallSFW()
         {
             Random randomNum = new Random();
-
-            Console.Clear();
-            Console.Write("Ask me any yes or no question and I will tell your future!: ");
-            Console.ReadLine();
-            Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your answer: {answersSFW[randomNum.Next(0, answersSFW.Length)]}");
-            Console.WriteLine("\nPress enter to continue for next task");
-            Console.ReadLine();
+            bool anotherQuestion = true;
+            string input = "";
+            while (anotherQuestion)
+            {
+                Console.Clear();
+                Console.Write("Ask me any yes or no question and I will tell your future!: ");
+                Console.ReadLine();
+                Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your answer: {answersSFW[randomNum.Next(0, answersSFW.Length)]}");
+                Console.WriteLine("\nPress enter to continue");
+                Console.ReadLine();
+                Console.Clear();
+                Console.WriteLine("Would you like to ask another question? (Y)es or (N)o:");
+                input = Console.ReadLine().ToLower();
+                if (input == "y")
+                {
+                    anotherQuestion = true;
+                }
+                if (input == "n")
+                {
+                    anotherQuestion = false;
+                }
+            }
             Console.Clear();
             Console.WriteLine("************************************************************************************************************************");
             Console.WriteLine("************************************************************************************************************************");

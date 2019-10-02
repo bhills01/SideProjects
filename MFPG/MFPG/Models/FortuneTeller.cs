@@ -26,13 +26,28 @@ namespace MFPG.Models
         public void fortuneTeller()
         {
             Random randomNum = new Random();
-
-            Console.Clear();
-            Console.Write("Press enter for your fortune! ");
-            Console.ReadLine();
-            Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, fortunes.Length)]}");
-            Console.WriteLine("\nPress enter to continue for next task");
-            Console.ReadLine();
+            bool anotherQuestion = true;
+            string input = "";
+            while (anotherQuestion)
+            {
+                Console.Clear();
+                Console.Write("Press enter for your fortune! ");
+                Console.ReadLine();
+                Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, fortunes.Length)]}");
+                Console.WriteLine("\nPress enter to continue for next task");
+                Console.ReadLine();
+                Console.Clear();
+                Console.WriteLine("Would you like to recieve another fortune? (Y)es or (N)o:");
+                input = Console.ReadLine().ToLower();
+                if (input == "y")
+                {
+                    anotherQuestion = true;
+                }
+                if (input == "n")
+                {
+                    anotherQuestion = false;
+                }
+            }
             Console.Clear();
             Console.WriteLine("************************************************************************************************************************");
             Console.WriteLine("************************************************************************************************************************");

@@ -47,15 +47,31 @@ namespace MFPG.Models
             Random randomNum = new Random();
             List<string> riddles = new List<string>(riddleSet.Keys);
             int number = randomNum.Next(riddles.Count);
-            Console.Clear();
-            Console.WriteLine("Press enter for your riddle! ");
-            Console.ReadKey();
-            Console.WriteLine();
-            Console.WriteLine($"Here is your riddle to solve: {riddles[number]}");
-            Console.ReadLine();
-            Console.WriteLine($"The answer to your riddle is: {riddleSet[riddles[number]]}");
-            Console.WriteLine("\nPress enter for next task");
-            Console.ReadLine();
+            bool anotherQuestion = true;
+            string input = "";
+            while (anotherQuestion)
+            {
+                Console.Clear();
+                Console.WriteLine("Press enter for your riddle! ");
+                Console.ReadKey();
+                Console.WriteLine();
+                Console.WriteLine($"Here is your riddle to solve: {riddles[number]}");
+                Console.ReadLine();
+                Console.WriteLine($"The answer to your riddle is: {riddleSet[riddles[number]]}");
+                Console.WriteLine("\nPress enter for next task");
+                Console.ReadLine();
+                Console.Clear();
+                Console.WriteLine("Would you like to recieve another riddle? (Y)es or (N)o:");
+                input = Console.ReadLine().ToLower();
+                if (input == "y")
+                {
+                    anotherQuestion = true;
+                }
+                if (input == "n")
+                {
+                    anotherQuestion = false;
+                }
+            }
             Console.Clear();
             Console.WriteLine("************************************************************************************************************************");
             Console.WriteLine("************************************************************************************************************************");
