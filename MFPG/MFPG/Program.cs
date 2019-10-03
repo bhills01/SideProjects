@@ -90,6 +90,9 @@ namespace MFPG
             Console.WriteLine();
             while (true)
             {
+                Console.WriteLine("************************************************************************************************************************");
+                Console.WriteLine("\n************************************************************************************************************************");
+                Console.WriteLine("\n************************************************************************************************************************");
                 Console.Write("\t\t\t\t1) Fortune Teller\n\t\t\t\t2) Magic 8-Ball (SFW)\n\t\t\t\t3) Magic 8-Ball (NSFW)\n\t\t\t\t4) Riddle Giver\n\t\t\t\tQ) Quit\n\n\n\t\t\t\tPlease choose an option: ");
                 String input = Console.ReadLine().ToLower();
 
@@ -130,6 +133,15 @@ namespace MFPG
 
                     riddle.riddleGiver();
 
+                }
+                else
+                {
+                    Console.Clear();
+                    //Console.WriteLine("************************************************************************************************************************");
+                    //Console.WriteLine("\n************************************************************************************************************************");
+                    //Console.WriteLine("\n************************************************************************************************************************");
+                    //Console.Write("\n\t\t\t\t1) Fortune Teller\n\t\t\t\t2) Magic 8-Ball (SFW)\n\t\t\t\t3) Magic 8-Ball (NSFW)\n\t\t\t\t4) Riddle Giver\n\t\t\t\tQ) Quit\n\n\n\t\t\t\tPlease choose an option: ");
+                    continue;
                 }
 
 
