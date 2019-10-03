@@ -38,14 +38,25 @@ namespace MFPG.Models
                 Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Would you like to recieve another fortune? (Y)es or (N)o:");
-                input = Console.ReadLine().ToLower();
-                if (input == "y")
+                bool anotherOne = true;
+                while (anotherOne)
                 {
-                    anotherQuestion = true;
-                }
-                if (input == "n")
-                {
-                    break;
+                    input = Console.ReadLine().ToLower();
+                    if (input == "y")
+                    {
+                        anotherQuestion = true;
+                        break;
+                    }
+                    if (input == "n")
+                    {
+                        anotherQuestion = false;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Please enter either Y or N");
+                        continue;
+                    }
                 }
             }
             Console.Clear();

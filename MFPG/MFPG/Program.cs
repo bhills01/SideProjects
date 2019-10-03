@@ -72,7 +72,7 @@ namespace MFPG
             // Code to make a menu for a user interface (working with classes and stuff like that)
             bool visible = true;
             Console.BackgroundColor = ConsoleColor.DarkRed;
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 16; i++)
             {
                 //Press Ctrl + C to Quit
                 string alert = "************************************************************************************************************************" +
@@ -84,11 +84,9 @@ namespace MFPG
                 Console.Clear();
                 Console.WriteLine(alert);
                 Console.ForegroundColor = ConsoleColor.White;
-                Thread.Sleep(25);
+                Thread.Sleep(300);
             }
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.WriteLine();
-            Console.WriteLine();
             Console.WriteLine();
             while (true)
             {

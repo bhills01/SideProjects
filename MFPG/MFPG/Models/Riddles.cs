@@ -60,19 +60,38 @@ namespace MFPG.Models
                 Console.WriteLine($"Here is your riddle to solve: {riddles[number]}");
                 Console.ReadLine();
                 Console.WriteLine($"The answer to your riddle is: {riddleSet[riddles[number]]}");
+                riddleSet.Remove(riddles[number]);
+                if (riddleSet.Count == 0)
+                {
+                    Console.WriteLine("\nOut of riddles. Come back again later. Press enter to return to the menu");
+                    Console.ReadLine();
+                    break;
+                }
                 Console.WriteLine("\nPress enter for next task");
                 Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Would you like to recieve another riddle? (Y)es or (N)o:");
-                input = Console.ReadLine().ToLower();
-                if (input == "y")
+                bool anotherOne = true;
+                while (anotherOne)
                 {
-                    anotherQuestion = true;
+                    input = Console.ReadLine().ToLower();
+                    if (input == "y")
+                    {
+                        anotherQuestion = true;
+                        break;
+                    }
+                    if (input == "n")
+                    {
+                        anotherQuestion = false;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Please enter either Y or N");
+                        continue;
+                    }
                 }
-                if (input == "n")
-                {
-                    break;
-                }
+
             }
             Console.Clear();
             Console.WriteLine("************************************************************************************************************************");
