@@ -51,7 +51,17 @@ namespace MFPG.Models
                         anotherQuestion = true;
                         break;
                     }
+                    if (input == "yes")
+                    {
+                        anotherQuestion = true;
+                        break;
+                    }
                     if (input == "n")
+                    {
+                        anotherQuestion = false;
+                        break;
+                    }
+                    if (input == "no")
                     {
                         anotherQuestion = false;
                         break;
