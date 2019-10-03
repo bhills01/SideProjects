@@ -72,7 +72,7 @@ namespace MFPG
             // Code to make a menu for a user interface (working with classes and stuff like that)
             bool visible = true;
             Console.BackgroundColor = ConsoleColor.DarkRed;
-            for (int i = 0; i < 75; i++)
+            for (int i = 0; i < 50; i++)
             {
                 //Press Ctrl + C to Quit
                 string alert = "************************************************************************************************************************" +
