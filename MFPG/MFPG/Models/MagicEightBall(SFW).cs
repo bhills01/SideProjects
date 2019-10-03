@@ -52,7 +52,7 @@ namespace MFPG.Models
                 }
                 if (input == "n")
                 {
-                    anotherQuestion = false;
+                    break;
                 }
             }
             Console.Clear();

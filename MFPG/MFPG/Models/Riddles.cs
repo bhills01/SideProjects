@@ -44,13 +44,15 @@ namespace MFPG.Models
         };
         public void riddleGiver()
         {
-            Random randomNum = new Random();
-            List<string> riddles = new List<string>(riddleSet.Keys);
-            int number = randomNum.Next(riddles.Count);
+            
             bool anotherQuestion = true;
-            string input = "";
+            
             while (anotherQuestion)
             {
+                Random randomNum = new Random();
+                List<string> riddles = new List<string>(riddleSet.Keys);
+                int number = randomNum.Next(riddles.Count);
+                string input = "";
                 Console.Clear();
                 Console.WriteLine("Press enter for your riddle! ");
                 Console.ReadKey();
@@ -69,7 +71,7 @@ namespace MFPG.Models
                 }
                 if (input == "n")
                 {
-                    anotherQuestion = false;
+                    break;
                 }
             }
             Console.Clear();
