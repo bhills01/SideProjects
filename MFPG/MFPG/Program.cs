@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading;
 using MFPG.Models;
-using ReadCountryData;
 
 namespace MFPG
 {
@@ -9,67 +8,7 @@ namespace MFPG
     {
         static void Main(string[] args)
         {
-            //Random randomNum = new Random();
-            //string[] answer = new string[] { "Yes", "No", "Maybe", "Ask again Later", "Does not seem likely", "You can count on it!" };
-            //string yesOrNo = "";
 
-            //Console.WriteLine("*************************************************************************************************");
-            //Console.WriteLine("*************************************************************************************************");
-            //Console.WriteLine("*************************************************************************************************");
-            //Console.WriteLine("Who dare disturb the Great Flambini All Powerful and Majestic Mystic of the Futuuuuurrrreeeee!!!!");
-            //Console.WriteLine();
-            //Console.WriteLine();
-            //Console.WriteLine();
-            //Console.WriteLine();
-            //Console.Write("Well, since you have my attention...Ask me any yes or no question and I will tell your future!: "); Console.Read();
-            //Console.WriteLine();
-            //Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answer[randomNum.Next(0, 5)]}");
-            //Console.ReadLine();
-
-            //Console.Write("Would you like to ask another question(y)es or (n)o? ");
-
-            //yesOrNo = Console.ReadLine();
-
-            //while (yesOrNo != "n")
-            //{
-            //    Console.WriteLine("*************************************************************************************************");
-            //    Console.WriteLine("*************************************************************************************************");
-            //    Console.WriteLine("*************************************************************************************************");
-            //    Console.Write("Fine...What is your questions? "); Console.Read();
-            //    Console.WriteLine();
-            //    Console.WriteLine($"I have consorted with the spirits to divine your future! Here is your answer: {answer[randomNum.Next(0, 5)]}");
-            //    Console.ReadLine();
-
-            //    Console.Write("Would you like to ask another question(y)es or (n)o? ");
-
-            //    yesOrNo = Console.ReadLine();
-            //}
-
-            //Console.WriteLine("Thank god!!! Off with you then!");
-            //Console.WriteLine("Tap (enter) to return to your boring life!");
-            //Console.ReadLine();
-
-
-
-
-            //// comment out the code above and uncomment the 2 lines of code below to run my GreatFlambini class functionality ~Brandon
-            //GreatFlambini greatFlambini = new GreatFlambini();
-
-            //greatFlambini.RunFlambini();
-
-            //Text typing out on top of the console window
-            //string Progresbar = "The Great Flambini All Powerful and Majestic Mystic of the Futuuuuurrrreeeee!!!!";
-            //var title = "";
-            //while (true)
-            //{
-            //    for (int i = 0; i < Progresbar.Length; i++)
-            //    {
-            //        title += Progresbar[i];
-            //        Console.Title = title;
-            //        Thread.Sleep(100);
-            //    }
-            //    title = "";
-            //}
             // Code to make a menu for a user interface (working with classes and stuff like that)
             bool visible = true;
             Console.BackgroundColor = ConsoleColor.DarkRed;
@@ -89,7 +28,10 @@ namespace MFPG
             }
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine();
-            while (true)
+
+            bool menu = true;
+
+            while (menu == true)
             {
                 Console.WriteLine("************************************************************************************************************************");
                 Console.WriteLine("\n************************************************************************************************************************");
@@ -113,6 +55,7 @@ namespace MFPG
 
                 if (input == "q")
                 {
+                    menu = false;
                     break;
                 }
                 else if (input == "1")
@@ -144,15 +87,21 @@ namespace MFPG
                 else
                 {
                     Console.Clear();
-                    //Console.WriteLine("************************************************************************************************************************");
-                    //Console.WriteLine("\n************************************************************************************************************************");
-                    //Console.WriteLine("\n************************************************************************************************************************");
-                    //Console.Write("\n\t\t\t\t1) Fortune Teller\n\t\t\t\t2) Magic 8-Ball (SFW)\n\t\t\t\t3) Magic 8-Ball (NSFW)\n\t\t\t\t4) Riddle Giver\n\t\t\t\tQ) Quit\n\n\n\t\t\t\tPlease choose an option: ");
+
                     continue;
                 }
-
-
             }
+
+            Console.Clear();
+            Credits firstCredits = new Credits();
+            Console.WriteLine($"{firstCredits.Contributers()}");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Press [Enter] to exit the Great Flambini");
+
+            Console.ReadLine();
         }
     }
 }
