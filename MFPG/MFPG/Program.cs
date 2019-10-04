@@ -102,6 +102,12 @@ namespace MFPG
                     continue;
 
                 }
+                if (input.Length > 1)
+                {
+                    Console.Clear();
+                    continue;
+
+                }
                 input = input.Substring(0, 1);
 
                 if (input == "q")
@@ -111,13 +117,13 @@ namespace MFPG
                 else if (input == "1")
                 {
                     FortuneTeller fortuneTeller = new FortuneTeller();
-
+ 
                     fortuneTeller.fortuneTeller();
                 }
                 else if (input == "2")
                 {
                     MagicEightBall_SFW_ magicEightBallSFW = new MagicEightBall_SFW_();
-
+ 
                     magicEightBallSFW.magicEightBallSFW();
                 }
                 else if (input == "3")

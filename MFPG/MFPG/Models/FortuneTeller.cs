@@ -31,7 +31,7 @@ namespace MFPG.Models
             while (anotherQuestion)
             {
                 Console.Clear();
-                Console.Write("Press enter for your fortune! ");
+                Console.Write("Press enter to recieve your fortune! ");
                 Console.ReadLine();
                 Console.WriteLine($"\nI have consorted with the spirits to divine your future! Here is your fortune: {fortunes[randomNum.Next(0, fortunes.Length)]}");
                 Console.WriteLine("\nPress enter to continue for next task");
