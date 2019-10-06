@@ -58,8 +58,16 @@ namespace MFPG.Models
                 Console.ReadKey();
                 Console.WriteLine();
                 Console.WriteLine($"Here is your riddle to solve: {riddles[number]}");
-                Console.ReadLine();
-                Console.WriteLine($"The answer to your riddle is: {riddleSet[riddles[number]]}");
+                Console.Write("Please enter your answer: ");
+                string userAnswer = Console.ReadLine().ToLower();
+                if (riddleSet[riddles[number]].ToLower().Contains(userAnswer))
+                {
+                    Console.WriteLine("Correct");
+                }
+                else
+                {
+                    Console.WriteLine($"You're so stupid. The answer to your riddle is: {riddleSet[riddles[number]]}");
+                }
                 riddleSet.Remove(riddles[number]);
                 if (riddleSet.Count == 0)
                 {
