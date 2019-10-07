@@ -30,7 +30,7 @@ namespace MFPG.Models
             while (anotherQuestion)
             {
                 Console.Clear();
-                Console.Write("Press enter to recieve your fortune! ");
+                Console.Write("Press enter to recieve your random fact! ");
                 Console.ReadLine();
                 Console.WriteLine($"\nFrom my vast amout of knowledge, here is your random fact: {facts[randomNum.Next(0, facts.Length)]}");
                 Console.WriteLine("\nPress enter to continue for next task");
