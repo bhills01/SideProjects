@@ -99,7 +99,7 @@ namespace MFPG
                 }
                 else if (input == "6")
                 {
-                    RandomFactGiver fact = new RandomFactGiver();\
+                    RandomFactGiver fact = new RandomFactGiver();
                     fact.factGiver();
                 }
                 else
