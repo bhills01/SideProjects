@@ -17,7 +17,7 @@ namespace MFPG.Models
             int userScore = 0;
             while (playAgain)
             {
-                while ((userScore < 2) && (flambiniScore < 2))
+                while ((userScore < 3) && (flambiniScore < 3))
                 {
 
                     string flambiniInput = rps[rnd.Next(0, 3)];
