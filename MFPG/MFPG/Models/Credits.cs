@@ -12,7 +12,7 @@ namespace MFPG.Models
                    "\n************************************************************************************************************************" +
                    "\n************************************************************************************************************************" +
                    "\n The Great Flambini is brought to you by a collaborative effort from the following Tech Elevator Cohort 12 .NET Members: " +
-                   "\n Brandon \"The Brain\" Best" +
+                   "\n Brandon \"Intellesense\" Best" +
                    "\n Glenn \"The Builder\" Weber" +
                    "\n Bradley \"Big Papa\" Hills" +
                    "\n Reid \"The Golden Steed\" Larson" +
