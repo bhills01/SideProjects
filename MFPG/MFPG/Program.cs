@@ -43,6 +43,7 @@ namespace MFPG
                     "\n\t\t\t\t4) Riddle Giver" +
                     "\n\t\t\t\t5) Paper Rock Scissors" +
                     "\n\t\t\t\tQ) Quit" +
+                    "\n\t\t\t\t5) Random Fact Giver" +
                     "\n\n\n\t\t\t\tPlease choose an option: ");
                 String input = Console.ReadLine().ToLower().Trim();
 
@@ -95,6 +96,11 @@ namespace MFPG
                 {
                     RockPaperScissors rps = new RockPaperScissors();
                     rps.RPS();
+                }
+                else if (input == "6")
+                {
+                    RandomFactGiver fact = new RandomFactGiver();\
+                    fact.factGiver();
                 }
                 else
                 {
