@@ -42,8 +42,8 @@ namespace MFPG
                     "\n\t\t\t\t3) Magic 8-Ball (NSFW)" +
                     "\n\t\t\t\t4) Riddle Giver" +
                     "\n\t\t\t\t5) Paper Rock Scissors" +
+                    "\n\t\t\t\t6) Random Fact Giver" +
                     "\n\t\t\t\tQ) Quit" +
-                    "\n\t\t\t\t5) Random Fact Giver" +
                     "\n\n\n\t\t\t\tPlease choose an option: ");
                 String input = Console.ReadLine().ToLower().Trim();
 
