@@ -36,8 +36,15 @@ namespace MFPG
                 Console.WriteLine("************************************************************************************************************************");
                 Console.WriteLine("\n************************************************************************************************************************");
                 Console.WriteLine("\n************************************************************************************************************************");
-                Console.Write("\t\t\t\t1) Fortune Teller\n\t\t\t\t2) Magic 8-Ball (SFW)\n\t\t\t\t3) Magic 8-Ball (NSFW)\n\t\t\t\t4) Riddle Giver\n\t\t\t\tQ) Quit\n\n\n\t\t\t\tPlease choose an option: ");
-                String input = Console.ReadLine().ToLower();
+                Console.Write(
+                    "\t\t\t\t1) Fortune Teller" +
+                    "\n\t\t\t\t2) Magic 8-Ball (SFW)" +
+                    "\n\t\t\t\t3) Magic 8-Ball (NSFW)" +
+                    "\n\t\t\t\t4) Riddle Giver" +
+                    "\n\t\t\t\t5) Paper Rock Scissors" +
+                    "\n\t\t\t\tQ) Quit" +
+                    "\n\n\n\t\t\t\tPlease choose an option: ");
+                String input = Console.ReadLine().ToLower().Trim();
 
                 if (input.Length == 0)
                 {
@@ -83,6 +90,11 @@ namespace MFPG
 
                     riddle.riddleGiver();
 
+                }
+                else if (input == "5")
+                {
+                    RockPaperScissors rps = new RockPaperScissors();
+                    rps.RPS();
                 }
                 else
                 {

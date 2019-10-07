@@ -6,12 +6,6 @@ namespace MFPG.Models
 {
     public class Credits
     {
-        // Constructor
-
-        // Properties
-
-        // Methods
-
         public string Contributers()
         {
             return "\n************************************************************************************************************************" +
@@ -22,9 +16,8 @@ namespace MFPG.Models
                    "\n Glenn \"The Builder\" Weber" +
                    "\n Bradley \"Big Papa\" Hills" +
                    "\n Reid \"The Golden Steed\" Larson" +
-                   "\n With a Special Thanks to Michael \"The Magician\" Morel for filling our brains with magic!" +
+                   "\n With a Special Thanks to  \"Magic\" Mike Morel for filling our brains with magic!" +
                    "\n Thank you for visiting the Great Flambini";
         }
-
     }
 }
