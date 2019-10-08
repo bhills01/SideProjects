@@ -23,57 +23,27 @@ namespace MFPG.Models
                     Console.Clear();
                     Console.Write($"Select (R)ock, (P)aper, (S)cissors: ");
                     string userInput = Console.ReadLine().ToLower().Trim();
-
-                    if (flambiniInput == userInput)
+                    if (userInput == "r")
                     {
-                        Console.WriteLine($"Flambini chooses the same thing!");
-                        flambiniVoice = "Ohhh, you're a tricky one. It's a draw";
-                    }
-                    else if (userInput == "r")
-                    {
-                        if (flambiniInput == rps[1])
-                        {
-
-                            Console.WriteLine($"Flambini chooses Paper!");
-                            flambiniVoice = "You cannot fool the Great Flambini. Paper beats Rock!";
-                            flambiniScore++;
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Flambini chooses Scissors");
-                            flambiniVoice = "Hmmm, you got one past me. It will not happen again!";
-                            userScore++;
-                        }
+                        flambiniInput = rps[2];
+                        Console.WriteLine($"Flambini chooses Scissors");
+                        flambiniVoice = "Hmmm, you got one past me. It will not happen again!";
+                        userScore++;
                     }
                     else if (userInput == "s")
                     {
-                        if (flambiniInput == rps[0])
-                        {
-                            Console.WriteLine($"Flambini chooses Rock!");
-                            flambiniVoice = "Pathetic attempt loser. Rock beats Scissors!";
-                            flambiniScore++;
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Flambini chooses Paper!");
-                            flambiniVoice = "You watch yourself clever one...";
-                            userScore++;
-                        }
+                        flambiniInput = rps[1];
+                        Console.WriteLine($"Flambini chooses Paper!");
+                        flambiniVoice = "You watch yourself clever one...";
+                        userScore++;
+                        
                     }
                     else if (userInput == "p")
                     {
-                        if (flambiniInput == rps[2])
-                        {
-                            Console.WriteLine($"Flambini chooses Scissors");
-                            flambiniVoice = "Ha! You thought you could out smart MEEEE?!?!. Scissors beats Paper!";
-                            flambiniScore++;
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Flambini chooses Rock!");
-                            flambiniVoice = "Fuck your mother!!";
-                            userScore++;
-                        }
+                        flambiniInput = rps[0];
+                        Console.WriteLine($"Flambini chooses Rock!");
+                        flambiniVoice = "Fuck your mother!!";
+                        userScore++; 
                     }
                     else
                     {
