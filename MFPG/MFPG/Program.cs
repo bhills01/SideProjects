@@ -41,8 +41,9 @@ namespace MFPG
                     "\n\t\t\t\t2) Magic 8-Ball (SFW)" +
                     "\n\t\t\t\t3) Magic 8-Ball (NSFW)" +
                     "\n\t\t\t\t4) Riddle Giver" +
-                    "\n\t\t\t\t5) Paper Rock Scissors" +
+                    "\n\t\t\t\t5) Rock Paper Scissors" +
                     "\n\t\t\t\t6) Random Fact Giver" +
+                    "\n\t\t\t\t7) Paper Rock Scissors" +
                     "\n\t\t\t\tQ) Quit" +
                     "\n\n\n\t\t\t\tPlease choose an option: ");
                 String input = Console.ReadLine().ToLower().Trim();
@@ -101,6 +102,11 @@ namespace MFPG
                 {
                     RandomFactGiver fact = new RandomFactGiver();
                     fact.factGiver();
+                }
+                else if (input == "7")
+                {
+                    RageInducingRockPaperScissors rps = new RageInducingRockPaperScissors();
+                    rps.RIRPS();
                 }
                 else
                 {
