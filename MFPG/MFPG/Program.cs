@@ -37,7 +37,7 @@ namespace MFPG
                 while (!sr.EndOfStream)
                 {
                     inputLine = sr.ReadLine();
-                    Console.WriteLine(inputLine);
+                    Console.WriteLine($"\t\t\t\t\t  {inputLine}");
                 }
             }
             Console.ReadLine();
@@ -133,11 +133,7 @@ namespace MFPG
                         Credits firstCredits = new Credits();
                         Console.WriteLine($"{firstCredits.Contributers()}");
                         Console.WriteLine();
-                        Console.WriteLine();
-                        Console.WriteLine();
-                        Console.WriteLine();
-                        Console.WriteLine("Press [Enter] to exit the Great Flambini");
-
+                        Console.WriteLine("\t\t\t Press [Enter] to exit the Great Flambini");
                         Console.ReadLine();
                     }
     }
