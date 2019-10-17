@@ -10,7 +10,6 @@ namespace MFPG
     {
         static void Main(string[] args)
         {
-
             // Code to make a menu for a user interface (working with classes and stuff like that)
             bool visible = true;
             Console.BackgroundColor = ConsoleColor.DarkRed;

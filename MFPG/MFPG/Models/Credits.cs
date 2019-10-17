@@ -16,6 +16,7 @@ namespace MFPG.Models
                    "\n\t\t\t Glenn \"The Builder\" Weber" +
                    "\n\t\t\t Bradley \"Big Papa\" Hills" +
                    "\n\t\t\t Reid \"The Golden Steed\" Larson" +
+                   "\n\t\t\t Will \"Swift Squirrel\" Schneider" +
                    "\n\t\t\t With a Special Thanks to  \"Magic\" Mike Morel for filling our brains with magic!" +
                    "\n\t\t\t Thank you for visiting the Great Flambini";
         }
