@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace MFPG.Models
 {
@@ -43,7 +44,15 @@ namespace MFPG.Models
         };
         public void riddleGiver()
         {
-            
+            string Progresbar = "The Mystical Riddle Giver";
+            var title = "";
+            for (int i = 0; i < Progresbar.Length; i++)
+            {
+                title += Progresbar[i];
+                Console.Title = title;
+                Thread.Sleep(100);
+            }
+
             bool anotherQuestion = true;
             
             while (anotherQuestion)

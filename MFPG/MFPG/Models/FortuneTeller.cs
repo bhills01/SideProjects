@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace MFPG.Models
 {
     public class FortuneTeller
     {
+
         private string[] fortunes = new string[]
         {
             "A beautiful, smart, and loving person will be coming into your life.",
@@ -25,6 +27,15 @@ namespace MFPG.Models
         };
         public void fortuneTeller()
         {
+            string Progresbar = "The Mystical Fortune Teller";
+            var title = "";
+            for (int i = 0; i < Progresbar.Length; i++)
+            {
+                title += Progresbar[i];
+                Console.Title = title;
+                Thread.Sleep(100);
+            }
+            title = "";
             Random randomNum = new Random();
             bool anotherQuestion = true;
             string input = "";

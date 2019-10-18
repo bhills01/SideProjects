@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace MFPG.Models
 {
@@ -24,6 +25,14 @@ namespace MFPG.Models
         };
         public void factGiver()
         {
+            string Progresbar = "The Completely Useless Random Fact Giver";
+            var title = "";
+            for (int i = 0; i < Progresbar.Length; i++)
+            {
+                title += Progresbar[i];
+                Console.Title = title;
+                Thread.Sleep(100);
+            }
             Random randomNum = new Random();
             bool anotherQuestion = true;
             string input = "";

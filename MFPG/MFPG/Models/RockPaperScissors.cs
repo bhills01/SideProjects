@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace MFPG.Models
 {
@@ -9,6 +10,14 @@ namespace MFPG.Models
 
         public void RPS()
         {
+            string Progresbar = "The \"You Actually Have A Chance\" Rock Paper Scissors";
+            var title = "";
+            for (int i = 0; i < Progresbar.Length; i++)
+            {
+                title += Progresbar[i];
+                Console.Title = title;
+                Thread.Sleep(100);
+            }
             Random rnd = new Random();
             string flambiniVoice = "";
             string[] rps = new string[] { "r", "p", "s" };

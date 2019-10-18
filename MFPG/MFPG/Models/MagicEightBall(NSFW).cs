@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace MFPG.Models
 {
@@ -28,6 +29,15 @@ namespace MFPG.Models
         };
         public void magicEightBallNSFW()
         {
+            string Progresbar = "The \" You Better Not Be At Work\" Magic 8-Ball";
+            var title = "";
+            for (int i = 0; i < Progresbar.Length; i++)
+            {
+                title += Progresbar[i];
+                Console.Title = title;
+                Thread.Sleep(100);
+            }
+            title = "";
             Random randomNum = new Random();
             bool anotherQuestion = true;
             string input = "";

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace MFPG.Models
 {
@@ -8,6 +9,14 @@ namespace MFPG.Models
     {
         public string Contributers()
         {
+            string Progresbar = "The People Who Made This Program";
+            var title = "";
+            for (int i = 0; i < Progresbar.Length; i++)
+            {
+                title += Progresbar[i];
+                Console.Title = title;
+                Thread.Sleep(100);
+            }
             return "****************************************************************************************************************************************************************************" +
                     "\n****************************************************************************************************************************************************************************" +
                     "\n****************************************************************************************************************************************************************************" +
