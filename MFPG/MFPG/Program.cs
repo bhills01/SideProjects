@@ -10,11 +10,10 @@ namespace MFPG
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
 
             // Code to make a menu for a user interface (working with classes and stuff like that)
             bool visible = true;
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.BackgroundColor = ConsoleColor.Black;
             for (int i = 0; i < 16; i++)
             {
                 //Press Ctrl + C to Quit
@@ -22,14 +21,14 @@ namespace MFPG
                     "\n****************************************************************************************************************************************************************************" +
                     "\n****************************************************************************************************************************************************************************" +
                     "\n\t\t\t\tWho dare disturb the Great Flambini All Powerful and Majestic Mystic of the Futuuuuurrrreeeee!!!!";
-                Console.ForegroundColor = visible ? ConsoleColor.White: ConsoleColor.Black;
+                Console.ForegroundColor = visible ? ConsoleColor.White: ConsoleColor.DarkRed;
                 visible = !visible;
                 Console.Clear();
                 Console.WriteLine(alert);
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.Black;
                 Thread.Sleep(300);
             }
-            Console.ForegroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Directory.SetCurrentDirectory(@"../../..");
             Console.WriteLine();
             string inputLine = "";
