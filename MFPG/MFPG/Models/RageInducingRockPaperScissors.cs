@@ -17,7 +17,6 @@ namespace MFPG.Models
                 Console.Title = title;
                 Thread.Sleep(100);
             }
-            title = "";
             Random rnd = new Random();
             string flambiniVoice = "";
             string[] rps = new string[] { "r", "p", "s" };

@@ -14,7 +14,7 @@ namespace MFPG
             // Code to make a menu for a user interface (working with classes and stuff like that)
             bool visible = true;
             Console.BackgroundColor = ConsoleColor.Black;
-            for (int i = 0; i < 16; i++)
+            for (int i = 0; i < 10; i++)
             {
                 //Press Ctrl + C to Quit
                 string alert = "****************************************************************************************************************************************************************************" +
@@ -141,11 +141,11 @@ namespace MFPG
                 }
             Console.Clear();
             string credit = "\t\t\tThe Great Flambini is brought to you by a collaborative effort from the following Tech Elevator Cohort 12 .NET Members:\n\n\t\t\t\t\t Brandon \"Intellesense\" Best \n\t\t\t\t\t Glenn \"The Builder\" Weber \n\t\t\t\t\t Bradley \"Big Papa\" Hills \n\t\t\t\t\t Reid \"The Golden Steed\" Larson \n\t\t\t\t\t Will \"Swift Squirrel\" Schneider \n\t\t\t\t\t With a Special Thanks to  \"Magic\" Mike Morel for filling our brains with magic! \n\t\t\t\t\t Thank you for visiting the Great Flambini\n\n\n\t\t\t\t\t Press [ENTER] to exit the Flambini";
-            var Title = "";
+            var Credit = "";
             for (int i = 0; i < credit.Length; i++)
             {
-                Title = credit[i] + "";
-                Console.Write($"{Title}");
+                Credit = credit[i] + "";
+                Console.Write($"{Credit}");
                 Thread.Sleep(25);
             }
             Console.ReadLine();
