@@ -20,10 +20,19 @@ namespace CharacterCreator.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult DiceRoller()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult DiceRoller(RollVM rollDie)
+        {
+            rollDie.TotalRoll =  rollDie.Die.Roll(rollDie.NumberOfRolls);
+            return View(rollDie);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

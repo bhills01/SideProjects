@@ -7,6 +7,12 @@ namespace CharacterCreator.Models
 {
     public class Die
     {
+        // Parameterless constructor
+        public Die()
+        {
+
+        }
+
         // Constructor 
         public Die(int sides)
         {
@@ -15,10 +21,10 @@ namespace CharacterCreator.Models
 
         public int Sides { get; set; }
 
-        public int Roll(int numberOfRolls, int sides)
+        public int Roll(int numberOfRolls)
         {
             Random random = new Random();
-            int num = random.Next(numberOfRolls * sides);
+            int num = random.Next(numberOfRolls * Sides) + 1;
             return num;
         }
     }

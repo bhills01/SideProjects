@@ -1,8 +1,50 @@
-﻿
+﻿@model RollVM
 @{
     ViewData["Title"] = "DiceRoller";
+    int numberOfRolls;
 }
 
 <h1>DiceRoller</h1>
 
-<img src="https://i.imgur.com/7svqWeG.jpg" />
+<img id="dice_img" src="https://i.imgur.com/7svqWeG.jpg" width="625" height="465" />
+
+<form method="post" asp-action="DiceRoller">
+    <table>
+        <tr>
+            <td><label asp-for="Die.Sides">How Many Sides?</label></td>
+        </tr>
+        <tr>
+            <td>
+                <select asp-for="Die.Sides">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="20">20</option>
+                    <option value="100">100</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label asp-for="NumberOfRolls">How many Rolls?</label></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" asp-for="NumberOfRolls" />                
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Roll!" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+@if (Model != null)
+{ 
+    <h1>@Model.TotalRoll</h1>   
+}
