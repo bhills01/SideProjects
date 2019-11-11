@@ -1,0 +1,16 @@
+﻿@model CharCreatorVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1> Character Creator</h1>
+
+<form asp-controller="CharacterCreator" asp-action="DDCharacter">
+    <p>What universe will your character belong to?</p>
+    <select asp-for="@Model.GameUniverse">
+        <object>Dungeons and Dragons</object>
+    </select>
+    <input type="submit" />
+</form>
+What universe will your character belong to?
+
