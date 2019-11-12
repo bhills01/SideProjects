@@ -1,6 +1,9 @@
-﻿using System;
+﻿using iTextSharp.text.pdf;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -16,11 +19,12 @@ namespace CharacterCreator.Models
 
         [StringLength(15, MinimumLength = 1)]
         public string CharacterName { get; set; }
+
         public string Class { get; set; }
         public int Level { get; set; }
         public string Background { get; set; }
-        [StringLength(15, MinimumLength = 1)]
 
+        [StringLength(15, MinimumLength = 1)]
         public string PlayerName { get; set; }
         public string Race { get; set; }
         public string Alignment { get; set; }
@@ -32,12 +36,5 @@ namespace CharacterCreator.Models
         public int Intelligence { get; set; }
         public int Wisdom { get; set; }
         public int Charisma { get; set; }
-
-
-
-
-
-
-
     }
 }

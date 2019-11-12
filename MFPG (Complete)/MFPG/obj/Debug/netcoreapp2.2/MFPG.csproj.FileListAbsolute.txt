@@ -42,3 +42,14 @@ C:\Users\BHills\GIT\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.A
 C:\Users\BHills\GIT\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfo.cs
 C:\Users\BHills\GIT\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.dll
 C:\Users\BHills\GIT\hills-side-projects\MFPG\MFPG\obj\Debug\netcoreapp2.2\MFPG.pdb
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\bin\Debug\netcoreapp2.2\MFPG.deps.json
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\bin\Debug\netcoreapp2.2\MFPG.runtimeconfig.json
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\bin\Debug\netcoreapp2.2\MFPG.runtimeconfig.dev.json
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\bin\Debug\netcoreapp2.2\MFPG.dll
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\bin\Debug\netcoreapp2.2\MFPG.pdb
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\obj\Debug\netcoreapp2.2\MFPG.csprojAssemblyReference.cache
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\obj\Debug\netcoreapp2.2\MFPG.csproj.CoreCompileInputs.cache
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfoInputs.cache
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\obj\Debug\netcoreapp2.2\MFPG.AssemblyInfo.cs
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\obj\Debug\netcoreapp2.2\MFPG.dll
+C:\Users\BHills\GIT\hills-side-projects\MFPG (Complete)\MFPG\obj\Debug\netcoreapp2.2\MFPG.pdb

@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BHills\\GIT\\hills-side-projects\\MFPG\\MFPG\\MFPG.csproj",
+      "projectUniqueName": "C:\\Users\\BHills\\GIT\\hills-side-projects\\MFPG (Complete)\\MFPG\\MFPG.csproj",
       "projectName": "MFPG",
-      "projectPath": "C:\\Users\\BHills\\GIT\\hills-side-projects\\MFPG\\MFPG\\MFPG.csproj",
+      "projectPath": "C:\\Users\\BHills\\GIT\\hills-side-projects\\MFPG (Complete)\\MFPG\\MFPG.csproj",
       "packagesPath": "C:\\Users\\BHills\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BHills\\GIT\\hills-side-projects\\MFPG\\MFPG\\obj\\",
+      "outputPath": "C:\\Users\\BHills\\GIT\\hills-side-projects\\MFPG (Complete)\\MFPG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
