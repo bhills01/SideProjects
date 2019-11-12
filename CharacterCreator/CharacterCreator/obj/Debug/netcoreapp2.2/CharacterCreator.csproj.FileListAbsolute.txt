@@ -64,3 +64,5 @@ C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\
 C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.pdb
 C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.csproj.CopyComplete
 C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\DDCreator.cshtml.g.cs
+C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\GenerateCharacter.cshtml.g.cs
+C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs

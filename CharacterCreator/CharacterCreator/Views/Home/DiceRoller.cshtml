@@ -5,9 +5,6 @@
 }
 
 <h1>DiceRoller</h1>
-
-<img id="dice_img" src="https://i.imgur.com/7svqWeG.jpg" width="625" height="465" />
-
 <form method="post" asp-action="DiceRoller">
     <table>
         <tr>
@@ -32,11 +29,10 @@
         </tr>
         <tr>
             <td>
-                <input type="text" asp-for="NumberOfRolls" />                
+                <input type="text" asp-for="NumberOfRolls" />
             </td>
         </tr>
         <tr>
-            <td></td>
             <td>
                 <input type="submit" value="Roll!" />
             </td>
@@ -45,6 +41,11 @@
 </form>
 
 @if (Model != null)
-{ 
-    <h1>@Model.TotalRoll</h1>   
+{
+    <h1 id="result">@Model.TotalRoll</h1>
 }
+
+<div id="dice_img">
+    <img id="dice_img" src="https://i.imgur.com/7svqWeG.jpg" width="625" height="465" />
+</div>
+

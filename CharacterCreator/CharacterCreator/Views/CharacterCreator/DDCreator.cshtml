@@ -5,7 +5,7 @@
 
 <h1>Dungeons and Dragons Character Creator</h1>
 
-<form method="get" asp-action="DDCreator">
+<form method="get" asp-action="GenerateCharacter">
     <table>
         <tr>
             <td>
@@ -100,6 +100,15 @@
                     <option>Neutral Evil</option>
                     <option>Chaotic Evil</option>
                 </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @*TODO Figure out how to roll dice for stats*@
+                <label asp-for="Strength">Roll for Strength</label>
+            </td>
+            <td>
+                <h3 id="todo">STILL NEED TO FIGURE OUT HOW TO DO THIS!</h3>
             </td>
         </tr>
         <tr>
