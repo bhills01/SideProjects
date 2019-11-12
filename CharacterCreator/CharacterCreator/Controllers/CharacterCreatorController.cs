@@ -12,5 +12,10 @@ namespace CharacterCreator.Controllers
         {
             return View();
         }
+
+        public IActionResult DDCreator()
+        {
+            return View();
+        }
     }
 }
