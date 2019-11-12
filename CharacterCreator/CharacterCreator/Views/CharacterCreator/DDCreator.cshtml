@@ -1,0 +1,121 @@
+﻿@model DDCharacter
+@{
+    ViewData["Title"] = "DDCreator";
+}
+
+<h1>Dungeons and Dragons Character Creator</h1>
+
+<form method="get" asp-action="GenerateCharacter">
+    <table>
+        <tr>
+            <td>
+                <label asp-for="PlayerName">Please enter your name:</label>
+            </td>
+            <td>
+                <input type="text" asp-for="PlayerName" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="CharacterName">Please enter a new character name:</label>
+            </td>
+            <td>
+                <input type="text" asp-for="CharacterName" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="Class">Choose a Class:</label>
+            </td>
+            <td>
+                <select asp-for="Class">
+                    <option>Barbarian</option>
+                    <option>Bard</option>
+                    <option>Cleric</option>
+                    <option>Druid</option>
+                    <option>Fighter</option>
+                    <option>Monk</option>
+                    <option>Paladin</option>
+                    <option>Ranger</option>
+                    <option>Rogue</option>
+                    <option>Sorcerer</option>
+                    <option>Warlock</option>
+                    <option>Wizard</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="Background">Choose a Background:</label>
+            </td>
+            <td>
+                @* TODO add the rest of the backgrounds *@
+                <select asp-for="Background">
+                    <option>Acolyte</option>
+                    <option>Anthropologist</option>
+                    <option>Archaeologist</option>
+                    <option>Charlatan</option>
+                    <option>Courtier</option>
+                    <option>Faceless</option>
+                    <option>Far Traveler</option>
+                    <option>Gladiator</option>
+                    <option>Hermit</option>
+                    <option>Noble</option>
+                    <option>Sage</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @*TODO Add Races for Different Rulesets and a selector*@
+                <label asp-for="Race">Choose a Race:</label>
+            </td>
+            <td>
+                <select asp-for="Race">
+                    <option>Dragonborn</option>
+                    <option>Dwarf</option>
+                    <option>Elf</option>
+                    <option>Gnome</option>
+                    <option>Half-Elf</option>
+                    <option>Halfling</option>
+                    <option>Half-Orc</option>
+                    <option>Human</option>
+                    <option>Tiefling</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label asp-for="Alignment">Choose Alignment:</label>
+            </td>
+            <td>
+                <select asp-for="Alignment">
+                    <option>Lawful Good</option>
+                    <option>Neutral Good</option>
+                    <option>Chaotic Good</option>
+                    <option>Lawful Neutral</option>
+                    <option>True Neutral</option>
+                    <option>Chaotic Neutral</option>
+                    <option>Lawful Evil</option>
+                    <option>Neutral Evil</option>
+                    <option>Chaotic Evil</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @*TODO Figure out how to roll dice for stats*@
+                <label asp-for="Strength">Roll for Strength</label>
+            </td>
+            <td>
+                <h3 id="todo">STILL NEED TO FIGURE OUT HOW TO DO THIS!</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Create Character" />
+            </td>
+        </tr>
+    </table>
+</form>
+

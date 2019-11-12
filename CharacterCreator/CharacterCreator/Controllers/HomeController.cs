@@ -33,6 +33,12 @@ namespace CharacterCreator.Controllers
             return View(rollDie);
         }
 
+        public IActionResult About()
+        {
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
