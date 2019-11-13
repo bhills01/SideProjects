@@ -29,40 +29,7 @@ C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\De
 C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.pdb
 C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.csproj.CopyComplete
 C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Home\DiceRoller.g.cshtml.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\appsettings.Development.json
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\appsettings.json
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\CharacterCreator.deps.json
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\CharacterCreator.runtimeconfig.json
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\CharacterCreator.runtimeconfig.dev.json
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\CharacterCreator.dll
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\CharacterCreator.pdb
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\CharacterCreator.Views.dll
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\bin\Debug\netcoreapp2.2\CharacterCreator.Views.pdb
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.csprojAssemblyReference.cache
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.RazorAssemblyInfo.cache
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.RazorAssemblyInfo.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.AssemblyInfoInputs.cache
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.AssemblyInfo.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.TagHelpers.input.cache
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.TagHelpers.output.cache
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.RazorCoreGenerate.cache
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\Index.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Home\DiceRoller.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.RazorTargetAssemblyInfo.cache
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.RazorTargetAssemblyInfo.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.Views.pdb
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.dll
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.pdb
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\CharacterCreator.csproj.CopyComplete
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\DDCreator.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\GenerateCharacter.cshtml.g.cs
-C:\Users\Bradicus Max\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\Index.g.cshtml.cs
+C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\DDCreator.g.cshtml.cs
+C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\CharacterCreator\GenerateCharacter.g.cshtml.cs
+C:\Users\BHills\GIT\hills-side-projects\CharacterCreator\CharacterCreator\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
